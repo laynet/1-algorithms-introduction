@@ -39,3 +39,5 @@ A choice of your own - brushing teeth
     spotify - they stand out from other streaming services because they make playlists for you based on your listening history and unlike pandora's similar algorithm, you can pick specific songs and not just stations
 3. Hypothesize about what constitutes an efficient algorithm versus an inefficient algorithm.
     an efficient algorithm would be one that balances time and cost ans would ideally be effective. An inefficient algorithm would be one that is slow and/or expensive regardless of effectiveness.
+
+

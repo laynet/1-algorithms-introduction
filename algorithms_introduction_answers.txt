@@ -1,37 +1,47 @@
 1. Using proper pseudo-code, describe the following primitive algorithms:
 
 Making coffee;
-    fill kettle
-    boil water
-    while boiling
-        add coffee to french press
-        end while
-    pour water into french press
-    wait 10 minutes
-    press coffee
+function kettle 
+    if kettle is full
+        return kettle
+        else
+        fill kettle 
+    heat kettle
+
+        while kettle 
+            add coffee + french press
+
+    end while 
+    end if 
+
+    function frenchPress
+        add kettle.content to french press
+        wait 10 minutes 
+        press coffee
+
+
 
 Washing dishes;
-    turn on water
-    grab sponge
-    grab soap
-    apply soap to sponge
-    wet sponge
-    grab dish
-    wet dish
-    wash dish
-    wet dish
-    place dish on rack
 
-A choice of your own - brushing teeth
-    grab toothbrush
-    turn on water
-    wet toothbrush
-    grab toothpaste
-    apply toothpaste to toothbrush
-    wet toothbrush
-    brush teeth
-    wet toothbrush
-    replace toothbrush
+function wash
+    if dishes  = dirty
+        wash(dish)
+    else
+        return dish
+
+function wash(dish)
+    while water is running 
+    soap + sponge + dish
+    return dish
+
+  
+
+A choice of your own - cleaning litter box
+    function scoopPoop
+    while litter box = full 
+        sort poop from litter
+        return to litter genie
+    
 
 2. As with the knot algorithm, there may be more than one way to solve the problem. It is essential to try to pick the best algorithm for a situation. Name three companies who created an algorithm that made them successful, e.g., Google's search algorithm. It doesn't need to be a tech example (such as a recipe or manufacturing a product). Google's algorithm produces more relevant results than other search engines; what about each of your cases make them stand out?
     uber's dispatch algorithm - I guess it's not that cool now because lyft does the same thing but when it came out it was cool because it did live dispatching from wherever the driver was and not from a hub
